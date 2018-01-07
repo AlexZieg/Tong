@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="titleArray">
+        <item>先生</item>
+        <item>女人</item>
+    </string-array>
+    <string name="Bild">圖片</string>
+    <string name="Company">公司</string>
+    <string name="Female">女人</string>
+    <string name="Region">國家</string>
+    <string name="SurName">姓</string>
+    <string name="Volume">音量:</string>
+    <string name="actLanguage">當前語言：</string>
+    <string name="bewertung">等級:</string>
+    <string name="btnExtended">擴展</string>
+    <string name="chinese">中國（繁體）</string>
+    <string name="clicked"> 點擊</string>
+    <string name="company">公司：</string>
+    <string name="customer">客戶編號： </string>
+    <string name="delete_button">擦除</string>
+    <string name="edit_button">編輯</string>
+    <string name="editor">編輯</string>
+    <string name="email">電子郵件地址:</string>
+    <string name="enterName">輸入你的名字</string>
+    <string name="errorEditText">請輸入正確的價值！</string>
+    <string name="extraPosition">位置</string>
+    <string name="french">法國</string>
+    <string name="german">德國</string>
+    <string name="givenName">名字</string>
+    <string name="givenname">名字：</string>
+    <string name="hier_k_nnen_sie_ein_backup_des_gesamten_systemes_starten">在這裡，您可以啟動整個系統的備份。</string>
+    <string name="india">印度人</string>
+    <string name="italy">意大利</string>
+    <string name="language">支持的語言：</string>
+    <string name="male">先生</string>
+    <string name="newVersion">新版本</string>
+    <string name="ok">行</string>
+    <string name="oldVersion">舊版</string>
+    <string name="player">播放機:</string>
+    <string name="position">位置: </string>
+    <string name="recFinish">錄音退出</string>
+    <string name="recPlay">錄音播放</string>
+    <string name="recReset">重置記錄</string>
+    <string name="recStart">記錄開始</string>
+    <string name="region">區域：</string>
+    <string name="russia">俄</string>
+    <string name="save">保存</string>
+    <string name="search">搜索</string>
+    <string name="searchCompany">搜索條件：</string>
+    <string name="searchGiven">搜索條件：名字</string>
+    <string name="searchName">搜索條件：產品名稱</string>
+    <string name="searchNoPref">搜索條件：沒有偏好</string>
+    <string name="searchOptions">搜索選項</string>
+    <string name="searchRegion">搜索標準：地區</string>
+    <string name="spain">西班牙語</string>
+    <string name="speechSettingText">要改變應用中的語言，你需要做這在智能手機的語言設置</string>
+    <string name="speechSettings">改變語言</string>
+    <string name="submit">進入</string>
+    <string name="suggest">建議：</string>
+    <string name="surname">姓：</string>
+    <string name="tabPlay">玩</string>
+    <string name="tabRecord">記錄</string>
+    <string name="telefonnummer">電話號碼: </string>
+    <string name="timerComplete">已完成!</string>
+    <string name="title">稱謂：</string>
+    <string name="uk">英語</string>
+</resources>

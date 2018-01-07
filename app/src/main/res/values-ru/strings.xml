@@ -1,0 +1,81 @@
+<resources>
+    <!-- Names -->
+
+    <!-- Buttons -->
+    <string name="tabRecord">запись</string>
+    <string name="tabPlay">Играть</string>
+    <string name="ok">ОК</string>
+
+    <!-- Keys -->
+    <string name="extraPosition">должность</string>
+
+    <!-- MediaPlayer -->
+    <string name="recStart">Запись работы</string>
+    <string name="recFinish">Запись закончена</string>
+    <string name="recReset">Обнуление Запись</string>
+    <string name="recPlay">Запись Воспроизведение</string>
+
+    <!-- Edit / Save -->
+    <string name="givenname">Собственное имя:</string>
+    <string name="surname">фамилия: </string>
+    <string name="region">страна: </string>
+    <string name="company">Компания: </string>
+    <string name="title">приветствие: </string>
+    <string-array name="titleArray">
+        <item>Г-н.</item>
+        <item>женщина.</item>
+    </string-array>
+    <string name="save">сохранены</string>
+
+    <!-- Error handling -->
+    <string name="errorEditText">Пожалуйста, введите правильное значение!</string>
+
+    <!-- Standard Values -->
+    <string name="customer">клиент номер факса.: </string>
+    <string name="position">положение: </string>
+    <string name="clicked"> щелкнул</string>
+    <string name="timerComplete">Завершенный.</string>
+    <string name="givenName">Собственное имя</string>
+    <string name="SurName">фамилия</string>
+    <string name="Region">страна</string>
+    <string name="Company">компания</string>
+    <string name="male">Г-н</string>
+    <string name="Female">женщина</string>
+    <string name="oldVersion">Старая версия</string>
+    <string name="newVersion">Новая версия</string>
+    <string name="submit">Войти</string>
+    <string name="enterName">Введите имя:</string>
+    <string name="btnExtended">расширенный</string>
+    <string name="edit_button">Кнопка редактирования</string>
+    <string name="delete_button">Кнопка Delete</string>
+    <string name="player">игрок:</string>
+    <string name="editor">редактор</string>
+    <string name="Volume">объем:</string>
+    <string name="search">Поиск</string>
+    <string name="searchOptions">Настройки поиска</string>
+    <string name="bewertung">Рейтинг:</string>
+    <string name="Bild">выбор изображения:</string>
+    <string name="telefonnummer">Номер телефона: </string>
+    <string name="email">адрес электронной почты:</string>
+
+    <!-- Länder -->
+    <string name="india">индийский</string>
+    <string name="chinese">Китайский (традиционный)</string>
+    <string name="french">французский</string>
+    <string name="german">немецкий</string>
+    <string name="italy">итальянский</string>
+    <string name="russia">русский</string>
+    <string name="spain">испанский</string>
+    <string name="uk">английский</string>
+    <string name="language">Поддерживаемые языки:</string>
+    <string name="actLanguage">Текущий язык:</string>
+    <string name="speechSettings">изменить язык</string>
+    <string name="speechSettingText">Чтобы изменить язык в приложение, вам нужно сделать это в языковых настройках вашего смартфона</string>
+    <string name="suggest">предложение:</string>
+    <string name="searchCompany">Критерии поиска: компания</string>
+    <string name="searchGiven">Критерии поиска: наименованию</string>
+    <string name="searchName">Критерии поиска: Фамилия</string>
+    <string name="searchNoPref">Критерии поиска: нет предпочтений</string>
+    <string name="searchRegion">Критерии поиска: Регион</string>
+    <string name="hier_k_nnen_sie_ein_backup_des_gesamten_systemes_starten">Здесь вы можете создать резервную копию всей системы.</string>
+</resources>

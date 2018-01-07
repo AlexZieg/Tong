@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/timerValue"
+            android:textColor="@color/colorAccent"
+            android:textSize="45sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/defaultMargin15"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:contentDescription="@string/image_of_the_record_button"
+            android:id="@+id/iBStartRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/record"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false" />
+
+        <ImageButton
+            android:contentDescription="@string/image_of_the_play_button"
+            android:id="@+id/iBPlayRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/play" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/defaultMargin15"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:contentDescription="@string/SaveButtonDescription"
+            android:id="@+id/iBSaveRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/save" />
+
+        <ImageButton
+            android:contentDescription="@string/image_of_the_reset_button"
+            android:id="@+id/iBResetRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/update" />
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

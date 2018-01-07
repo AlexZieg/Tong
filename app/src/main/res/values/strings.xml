@@ -1,0 +1,115 @@
+<resources>
+    <!-- Names -->
+    <string name="app_name" translatable="false">Tong</string>
+
+    <!-- Buttons -->
+    <string name="action_settings" translatable="false">Information</string>
+    <string name="action_importexport" translatable="false">Import/Export</string>
+    <string name="tabRecord">Aufnahme</string>
+    <string name="tabPlay">Abspielen</string>
+    <string name="ok">Ok</string>
+
+    <!-- Keys -->
+    <string name="extraPosition">position</string>
+
+    <!-- MediaPlayer -->
+    <string name="recStart">Record Started</string>
+    <string name="recFinish">Record Finish</string>
+    <string name="recReset">Record Reset</string>
+    <string name="recPlay">Record Play</string>
+
+    <!-- Edit / Save -->
+    <string name="givenname">Vorname: </string>
+    <string name="surname">Nachname: </string>
+    <string name="region">Region: </string>
+    <string name="company">Firma: </string>
+    <string name="title">Anrede: </string>
+    <string-array name="titleArray">
+        <item>Herr</item>
+        <item>Frau</item>
+    </string-array>
+    <string name="save">Gespeichert</string>
+
+    <!-- Error handling -->
+    <string name="errorEditText">Bitte einen korrekten Wert eingeben</string>
+
+    <!-- File Names and Description -->
+    <string name="extension3gp" translatable="false">.3gp</string>
+    <string name="extension4mpg" translatable="false">.mp4</string>
+    <string name="extensoionmp3" translatable="false">.mp3</string>
+    <string name="randomFileName" translatable="false">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</string>
+    <string name="standardFileName" translatable="false">AudioFile.3gp</string>
+    <string name="filePath" translatable="false">/sdcard/</string>
+
+    <!-- Standard Values -->
+    <string name="customer">Kunde Nr.: </string>
+    <string name="bla" translatable="false">Blaah bla blaa</string>
+    <string name="position">Position: </string>
+    <string name="clicked"> wurde geklickt</string>
+    <string name="timerComplete">Completed.</string>
+    <string name="notImplemented" translatable="false">Not implemented yet... Coming soon</string>
+    <string name="givenName">Vorname</string>
+    <string name="SurName">Nachname</string>
+    <string name="Region">Land</string>
+    <string name="Company">Firma</string>
+    <string name="male">Herr</string>
+    <string name="Female">Frau</string>
+    <string name="oldVersion">Alte Version</string>
+    <string name="newVersion">Neue Version</string>
+    <string name="stdValue" translatable="false">StdValue</string>
+    <string name="submit">Eintragen</string>
+    <string name="contentImageUserPic" translatable="false">UserImage</string>
+    <string name="timerValue" translatable="false">00</string>
+    <string name="enterName">Namen eingeben</string>
+    <string name="btnExtended">Erweitert</string>
+    <string name="edit_button">Edit Button</string>
+    <string name="delete_button">Löschen</string>
+    <string name="default_rating" translatable="false">(3.7)</string>
+    <string name="player">Player:</string>
+    <string name="editor">Editor</string>
+    <string name="Volume">Lautstärke:</string>
+    <string name="search">Suche</string>
+    <string name="searchOptions">Such Optionen</string>
+    <string name="bewertung">Bewertung:</string>
+    <string name="Bild">Bildauswahl</string>
+    <string name="telefonnummer">Tel.: </string>
+    <string name="email">Email:</string>
+
+    <!-- Images Description -->
+    <string name="image_of_the_record_button" translatable="false">Image of the Record Button</string>
+    <string name="image_of_the_play_button" translatable="false">Image of the Play Button</string>
+    <string name="SaveButtonDescription" translatable="false">Image of the Save Button</string>
+    <string name="image_of_the_reset_button" translatable="false">Image of the Reset Button</string>
+    <string name="image_of_the_playbutton" translatable="false">Image of the PlayButton</string>
+    <string name="image_of_the_pause_stop_button" translatable="false">image of the Pause/Stop Button</string>
+    <string name="background" translatable="false">Background image of the Card</string>
+    <string name="smallUserImage" translatable="false">Small User Image</string>
+
+    <!-- Länder -->
+    <string name="german">Deutsch</string>
+    <string name="spain">Spanisch</string>
+    <string name="uk">Englisch</string>
+    <string name="french">Französisch</string>
+    <string name="chinese">Chinesisch (Traditionell)</string>
+    <string name="russia">Russisch</string>
+    <string name="italy">Italienisch</string>
+    <string name="india">Indisch</string>
+    <string name="language">Unterstützte Sprachen:</string>
+    <string name="actLanguage">Aktuelle Sprache:</string>
+    <string name="timer">00:00:00</string>
+    <string name="sec" translatable="false">" Sec."</string>
+    <string name="speechSettings">Sprachänderung</string>
+    <string name="speechSettingText">Um eine Sprache innerhalb der App zu ändern, müssen Sie dies in den Spracheinstellungen Ihres Smartphones vornehmen</string>
+    <string name="appvers" translatable="false">App Version:</string>
+    <string name="v1_0" translatable="false">V1.0</string>
+    <string name="suggest">Vorschlag:</string>
+    <string name="searchName">Suchkriterium: Nachname</string>
+    <string name="searchGiven">Suchkriterium: Vorname</string>
+    <string name="searchRegion">Suchkriterium: Region</string>
+    <string name="searchCompany">Suchkriterium: Firma</string>
+    <string name="searchNoPref">Suchkriterium: Keine Präferenzen</string>
+    <string name="hier_k_nnen_sie_ein_backup_des_gesamten_systemes_starten">Hier können Sie ein Backup des gesamten Systemes starten.</string>
+    <string name="exportfilepath" translatable="false">exportFilePath</string>
+    <string name="file_exported" translatable="false">File Exported!</string>
+
+</resources>

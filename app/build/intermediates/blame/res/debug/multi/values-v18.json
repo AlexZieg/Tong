@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\Alex\\Dropbox\\Tong\\Tong\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "C:\\Users\\Alex\\.android\\build-cache\\2fff0e7398325d4ded27d38604aee658e0bbfe69\\output\\res\\values-v18\\values-v18.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 48,
+                        "endOffset": 99
+                    }
+                }
+            }
+        ]
+    }
+]

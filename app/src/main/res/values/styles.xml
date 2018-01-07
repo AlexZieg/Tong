@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.WithNewSpinnerStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="editTextStyle">@style/App_EditTextStyle</item>
+
+        <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerItem.DropDownItem</item>
+    </style>
+
+    <style name="AppTheme.WithNewSpinnerStyle.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="App_EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textColorHint">@color/primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/colorAccent</item>
+    </style>
+
+    <style name="SpinnerItem" parent="@android:style/Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="SpinnerItem.DropDownItem" parent="@android:style/Widget.DropDownItem.Spinner">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+
+</resources>

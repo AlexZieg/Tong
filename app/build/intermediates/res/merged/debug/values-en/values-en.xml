@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="titleArray">
+        <item>Mr.</item>
+        <item>Mrs.</item>
+    </string-array>
+    <string name="Bild">Picture: </string>
+    <string name="Company">Company</string>
+    <string name="Female">Mrs.</string>
+    <string name="Region">Region</string>
+    <string name="SurName">Name</string>
+    <string name="Volume">Volume:</string>
+    <string name="actLanguage">Current language:</string>
+    <string name="bewertung">Rating:</string>
+    <string name="btnExtended">Extended</string>
+    <string name="chinese">Traditionally Chinese</string>
+    <string name="clicked"> clicked</string>
+    <string name="company">Company: </string>
+    <string name="customer">Customer Nr.: </string>
+    <string name="delete_button">Delete Button</string>
+    <string name="edit_button">Edit Button</string>
+    <string name="editor">Editor</string>
+    <string name="email">Email:</string>
+    <string name="enterName">Enter Name:</string>
+    <string name="errorEditText">Please enter a correct value!</string>
+    <string name="extraPosition">position</string>
+    <string name="french">French</string>
+    <string name="german">German</string>
+    <string name="givenName">Givenname</string>
+    <string name="givenname">Givenname: </string>
+    <string name="hier_k_nnen_sie_ein_backup_des_gesamten_systemes_starten">Here you can start a backup of the entire system.</string>
+    <string name="india">Indian</string>
+    <string name="italy">Italian</string>
+    <string name="language">Supported languages:</string>
+    <string name="male">Mr.</string>
+    <string name="newVersion">New Version</string>
+    <string name="ok">Ok</string>
+    <string name="oldVersion">Old Version</string>
+    <string name="player">Player:</string>
+    <string name="position">Position: </string>
+    <string name="recFinish">Record Finish</string>
+    <string name="recPlay">Record Play</string>
+    <string name="recReset">Record Reset</string>
+    <string name="recStart">Record Started</string>
+    <string name="region">Region: </string>
+    <string name="russia">Russian</string>
+    <string name="save">Saved</string>
+    <string name="search">Search</string>
+    <string name="searchCompany">Search Preferences: Company</string>
+    <string name="searchGiven">Search Preferences: Given Name</string>
+    <string name="searchName">Search Preferences: Surname</string>
+    <string name="searchNoPref">Search Preferences: No Preferences</string>
+    <string name="searchOptions">Search options</string>
+    <string name="searchRegion">Search Preferences: Region</string>
+    <string name="spain">Spanish</string>
+    <string name="speechSettingText">To change a language within the app, you must do this in the language settings of your smartphone</string>
+    <string name="speechSettings">Change of language</string>
+    <string name="submit">Enter</string>
+    <string name="suggest">Suggestion:</string>
+    <string name="surname">Name: </string>
+    <string name="tabPlay">Play</string>
+    <string name="tabRecord">Record</string>
+    <string name="telefonnummer">Tel.: </string>
+    <string name="timerComplete">Completed.</string>
+    <string name="title">Title: </string>
+    <string name="uk">English</string>
+</resources>

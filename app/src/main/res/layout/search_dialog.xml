@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/defaultMargin16"
+    android:background="#EE000000"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/firstRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/defaultMargin10"
+        android:text="@string/searchOptions"
+        android:textAllCaps="true"
+        android:textColor="@color/primaryTextColor" />
+
+    <View
+        android:id="@+id/secondRow"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/firstRow"
+        android:background="@color/colorAccent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/secondRow"
+        android:layout_marginLeft="@dimen/defaultMargin5"
+        android:layout_marginRight="@dimen/defaultMargin5"
+        android:layout_marginTop="5dp">
+
+        <RadioButton
+            android:id="@+id/rName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:buttonTint="@color/colorAccent"
+            android:text="@string/surname"
+            android:textColor="@color/primaryTextColor" />
+
+        <RadioButton
+            android:id="@+id/rGivName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:buttonTint="@color/colorAccent"
+            android:text="@string/givenName"
+            android:textColor="@color/primaryTextColor" />
+
+        <RadioButton
+            android:id="@+id/rRegion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:buttonTint="@color/colorAccent"
+            android:text="Region"
+            android:textColor="@color/primaryTextColor" />
+
+        <RadioButton
+            android:id="@+id/rCompany"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:buttonTint="@color/colorAccent"
+            android:text="Firma"
+            android:textColor="@color/primaryTextColor" />
+
+        <RadioButton
+            android:id="@+id/rNothing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:buttonTint="@color/colorAccent"
+            android:text="Keine Präferenzen"
+            android:textColor="@color/primaryTextColor" />
+
+    </RadioGroup>
+
+    <!-- Second Row -->
+
+    <!-- Second Row -->
+
+    <!-- Second Row -->
+</RelativeLayout>

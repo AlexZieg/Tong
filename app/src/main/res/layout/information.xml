@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/defaultMargin5"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/defaultMargin5"
+            android:layout_weight="40"
+            android:text="@string/actLanguage"
+            android:textColor="@color/primaryTextColor" />
+
+        <ImageView
+            android:id="@+id/currentLanguage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="35"
+            android:src="@mipmap/germany" />
+
+        <TextView
+            android:id="@+id/actLanguage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="20"
+            android:text="@string/actLanguage"
+            android:textColor="@color/primaryTextColor" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/defaultMargin5"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/defaultMargin5"
+            android:text="@string/language"
+            android:textColor="@color/primaryTextColor" />
+
+        <ImageButton
+            android:id="@+id/info"
+            android:layout_width="24dip"
+            android:layout_height="24dip"
+            android:layout_marginStart="@dimen/defaultMargin10"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/infoicon" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/defaultMargin5"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <ImageButton
+            android:id="@+id/iBGerman"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/germany" />
+
+        <ImageButton
+            android:id="@+id/iBUK"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/unitedkingdom" />
+
+        <ImageButton
+            android:id="@+id/iBSpain"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/spain" />
+
+        <ImageButton
+            android:id="@+id/iBFrance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/france" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/defaultMargin5"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <ImageButton
+            android:id="@+id/iBItaly"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/italy" />
+
+        <ImageButton
+            android:id="@+id/iBIndia"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/india" />
+
+        <ImageButton
+            android:id="@+id/iBRussia"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/russian" />
+
+        <ImageButton
+            android:id="@+id/iBChina"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/china" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/defaultMargin5"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/defaultMargin5"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="40"
+                android:text="@string/appvers"
+                android:textColor="@color/primaryTextColor" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="40"
+                android:text="@string/v1_0"
+                android:textColor="@color/primaryTextColor" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

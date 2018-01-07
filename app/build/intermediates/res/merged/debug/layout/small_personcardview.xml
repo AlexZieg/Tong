@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/personCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/defaultMargin5"
+    android:layout_marginEnd="@dimen/defaultMargin10"
+    android:layout_marginLeft="@dimen/defaultMargin10"
+    android:layout_marginRight="@dimen/defaultMargin10"
+    android:layout_marginStart="@dimen/defaultMargin10"
+    android:layout_marginTop="@dimen/defaultMargin5"
+    card_view:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="75dp"
+            android:layout_height="100dp"
+            android:layout_margin="@dimen/defaultMargin10"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/smallUserImage"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/user1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/defaultMargin5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_givenName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/defaultMargin5"
+                android:gravity="center"
+                android:text="@string/givenname" />
+
+            <TextView
+                android:id="@+id/tv_surName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/defaultMargin5"
+                android:text="@string/bla" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/defaultMargin5"
+                android:textStyle="bold"
+                android:text="@string/bewertung" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                style="@android:style/Widget.Material.Light.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/defaultMargin5"
+                android:background="@android:color/transparent"
+                android:numStars="5"
+                android:progressBackgroundTint="@android:color/holo_red_dark"
+                android:progressTint="@android:color/holo_red_dark"
+                android:rating="3.7"
+                android:secondaryProgressTint="@android:color/holo_red_dark"
+                android:stepSize="0.05" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/defaultMargin5"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/defaultMargin5"
+                android:textStyle="bold"
+                android:text="@string/company" />
+
+            <TextView
+                android:id="@+id/tv_Company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/defaultMargin5"
+                android:gravity="center"
+                android:text="@string/bla" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/defaultMargin5"
+                android:textStyle="bold"
+                android:text="@string/region" />
+
+            <TextView
+                android:id="@+id/tv_Region"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/defaultMargin5"
+                android:text="@string/bla" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

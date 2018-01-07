@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="AppTheme.WithNewSpinnerStyle.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="EplanTheme" parent="android:Theme.Material" >
+        <item name="android:colorAccent">@color/accent_material_dark_2</item>
+    </style>
+</resources>

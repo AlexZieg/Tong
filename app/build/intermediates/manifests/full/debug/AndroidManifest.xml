@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.uni_stuttgart.sopra_ws1617_team8.tong"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.WithNewSpinnerStyle" >
+        <activity
+            android:name="de.uni_stuttgart.sopra_ws1617_team8.tong.MainActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.WithNewSpinnerStyle.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="de.uni_stuttgart.sopra_ws1617_team8.tong.Contacts.ContactCard"
+            android:configChanges="orientation"
+            android:label="DETAILS"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Contacts.ContactCard" />
+        </activity>
+        <activity
+            android:name="de.uni_stuttgart.sopra_ws1617_team8.tong.EditData"
+            android:configChanges="orientation"
+            android:label="DATEN BEARBEITEN"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EditData" />
+        </activity>
+        <activity
+            android:name="de.uni_stuttgart.sopra_ws1617_team8.tong.SaveData"
+            android:configChanges="orientation"
+            android:label="DATEN SPEICHERN"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SaveData" />
+        </activity>
+        <activity
+            android:name="de.uni_stuttgart.sopra_ws1617_team8.tong.Information"
+            android:configChanges="orientation"
+            android:label="EINSTELLUNGEN"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Information" />
+        </activity>
+        <activity
+            android:name="de.uni_stuttgart.sopra_ws1617_team8.tong.Contacts.Export"
+            android:configChanges="orientation"
+            android:label="Export"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Contacts.Export" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.uni_stuttgart.sopra_ws1617_team8.tong.test" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="25" />
+
+    <instrumentation
+        android:name="android.support.test.runner.AndroidJUnitRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for de.uni_stuttgart.sopra_ws1617_team8.tong"
+        android:targetPackage="de.uni_stuttgart.sopra_ws1617_team8.tong" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+</manifest>

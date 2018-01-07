@@ -1,0 +1,83 @@
+<resources>
+    <!-- Names -->
+
+    <!-- Buttons -->
+    <string name="tabRecord">Aufnahme</string>
+    <string name="tabPlay">Abspielen</string>
+    <string name="ok">Ok</string>
+
+    <!-- Keys -->
+    <string name="extraPosition">position</string>
+
+    <!-- MediaPlayer -->
+    <string name="recStart">Record Started</string>
+    <string name="recFinish">Record Finish</string>
+    <string name="recReset">Record Reset</string>
+    <string name="recPlay">Record Play</string>
+
+    <!-- Edit / Save -->
+    <string name="givenname">Vorname: </string>
+    <string name="surname">Nachname: </string>
+    <string name="region">Region: </string>
+    <string name="company">Firma: </string>
+    <string name="title">Anrede: </string>
+    <string-array name="titleArray">
+        <item>Herr</item>
+        <item>Frau</item>
+    </string-array>
+    <string name="save">Gespeichert</string>
+
+    <!-- Error handling -->
+    <string name="errorEditText">Bitte einen korrekten Wert eingeben</string>
+
+    <!-- File Names and Description -->
+
+    <!-- Standard Values -->
+    <string name="customer">Kunde Nr.: </string>
+    <string name="position">Position: </string>
+    <string name="clicked"> wurde geklickt</string>
+    <string name="timerComplete">Completed.</string>
+    <string name="givenName">Vorname</string>
+    <string name="SurName">Nachname</string>
+    <string name="Region">Land</string>
+    <string name="Company">Firma</string>
+    <string name="male">Herr</string>
+    <string name="Female">Frau</string>
+    <string name="oldVersion">Alte Version</string>
+    <string name="newVersion">Neue Version</string>
+    <string name="submit">Eintragen</string>
+    <string name="enterName">Namen eingeben</string>
+    <string name="btnExtended">Erweitert</string>
+    <string name="edit_button">Edit Button</string>
+    <string name="delete_button">Löschen</string>
+    <string name="player">Player:</string>
+    <string name="editor">Editor</string>
+    <string name="Volume">Lautstärke:</string>
+    <string name="search">Suche</string>
+    <string name="searchOptions">Such Optionen</string>
+    <string name="bewertung">Bewertung:</string>
+    <string name="Bild">Bildauswahl</string>
+    <string name="telefonnummer">Tel.: </string>
+    <string name="email">Email:</string>
+
+    <!-- Länder -->
+    <string name="india">Indisch</string>
+    <string name="italy">Italienisch</string>
+    <string name="chinese">Chinesisch (Traditionell)</string>
+    <string name="french">Französisch</string>
+    <string name="german">Deutsch</string>
+    <string name="russia">Russisch</string>
+    <string name="spain">Spanisch</string>
+    <string name="uk">Englisch</string>
+    <string name="language">Unterstützte Sprachen:</string>
+    <string name="actLanguage">Aktuelle Sprache:</string>
+    <string name="speechSettings">Sprachänderung</string>
+    <string name="speechSettingText">Um eine Sprache innerhalb der App zu ändern, müssen Sie dies in den Spracheinstellungen Ihres Smartphones vornehmen</string>
+    <string name="suggest">Vorschlag:</string>
+    <string name="searchName">Suchkriterium: Nachname</string>
+    <string name="searchCompany">Suchkriterium: Firma</string>
+    <string name="searchGiven">Suchkriterium: Vorname</string>
+    <string name="searchNoPref">Suchkriterium: Keine Präferenzen</string>
+    <string name="searchRegion">Suchkriterium: Region</string>
+    <string name="hier_k_nnen_sie_ein_backup_des_gesamten_systemes_starten">Hier können Sie ein Backup des gesamten Systemes starten.</string>
+</resources>

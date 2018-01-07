@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <!-- Card View for the persons Details  -->
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/defaultMargin16">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/contentImageUserPic"
+            android:scaleType="fitXY"
+            android:src="@drawable/bm_texture" />
+
+        <!-- Vertical Structur of the Layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- First Row of the Layout - It contains the UserPic, and the description of the user -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+
+                <!-- innerTable Structure of the details from the person -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/defaultMargin5"
+                    android:orientation="vertical">
+
+                    <!-- Start of the first row -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="24" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="38"
+                            android:text="@string/oldVersion"
+                            android:textColor="#fff" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="38"
+                            android:text="@string/newVersion"
+                            android:textColor="#fff" />
+                    </LinearLayout>
+                    <!-- End of the first Row -->
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#ffffff" />
+                    <!-- Start of the first row -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="24"
+                            android:text="@string/title"
+                            android:textColor="#fff" />
+
+                        <TextView
+                            android:id="@+id/textTitle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="38"
+                            android:text="@string/male"
+                            android:textColor="#fff" />
+
+                        <Spinner
+                            android:id="@+id/spinTitle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="38"
+                            android:entries="@array/titleArray" />
+
+                    </LinearLayout>
+                    <!-- End of the first Row -->
+
+                    <!-- Start of the second row -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="24"
+                            android:text="@string/givenname"
+                            android:textColor="#fff" />
+
+                        <TextView
+                            android:id="@+id/textGivenName"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="38"
+                            android:text="@string/stdValue"
+                            android:textColor="#fff" />
+
+                        <EditText
+                            android:id="@+id/edGivName"
+                            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="38"
+                            android:hint="@string/givenname" />
+                    </LinearLayout>
+                    <!-- End of the second Row -->
+
+                    <!-- Start of the third row -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="24"
+                            android:text="@string/surname"
+                            android:textColor="#fff" />
+
+                        <TextView
+                            android:id="@+id/textSurName"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="38"
+                            android:text="@string/stdValue"
+                            android:textColor="#fff" />
+
+                        <EditText
+                            android:id="@+id/edSurName"
+                            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="38"
+                            android:hint="@string/surname" />
+                    </LinearLayout>
+                    <!-- End of the third Row -->
+
+                    <!-- Start of the fourth row -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="24"
+                            android:text="@string/region"
+                            android:textColor="#fff" />
+
+                        <TextView
+                            android:id="@+id/textRegion"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="38"
+                            android:text="@string/stdValue"
+                            android:textColor="#fff" />
+
+                        <EditText
+                            android:id="@+id/edReg"
+                            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="38"
+                            android:hint="@string/region" />
+                    </LinearLayout>
+                    <!-- End of the fourth Row -->
+
+                    <!-- Start of the fith row -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="24"
+                            android:text="@string/company"
+                            android:textColor="#fff" />
+
+                        <TextView
+                            android:id="@+id/textCompany"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="38"
+                            android:text="@string/stdValue"
+                            android:textColor="#fff" />
+
+                        <EditText
+                            android:id="@+id/edCom"
+                            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="38"
+                            android:hint="@string/company" />
+                    </LinearLayout>
+                    <!-- End of the fith Row -->
+
+                    <!-- Start of the six row -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="24"
+                            android:text="@string/bewertung"
+                            android:textColor="#fff" />
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="38"
+                            android:layout_height="wrap_content">
+
+                            <RatingBar
+                                android:id="@+id/ratingOld"
+                                style="?android:attr/ratingBarStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@android:color/transparent"
+                                android:numStars="5"
+                                android:progressBackgroundTint="@android:color/holo_red_dark"
+                                android:progressTint="@android:color/holo_red_dark"
+                                android:rating="3.7"
+                                android:secondaryProgressTint="@android:color/holo_red_dark"
+                                android:stepSize="0.05" />
+
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="38"
+                            android:layout_height="wrap_content">
+
+                        <RatingBar
+                            android:id="@+id/ratingNew"
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:isIndicator="false"
+                            android:numStars="5"
+                            android:progressBackgroundTint="@android:color/holo_red_dark"
+                            android:progressTint="@android:color/holo_red_dark"
+                            android:rating="3.7"
+                            android:secondaryProgressTint="@android:color/holo_red_dark"
+                            android:stepSize="0.05" />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <!-- End of the six Row -->
+
+                    <!-- Start of the first row -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="22" />
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="39" />
+
+                        <Button
+                            android:id="@+id/btnEditSubmit"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="39"
+                            android:text="@string/submit"
+                            android:textColor="#000" />
+                    </LinearLayout>
+                    <!-- End of the first Row -->
+
+                </LinearLayout>
+                <!-- End of the First Row (User Information) -->
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

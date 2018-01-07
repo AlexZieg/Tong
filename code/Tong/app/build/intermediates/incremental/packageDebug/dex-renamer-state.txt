@@ -1,0 +1,7 @@
+#Fri Dec 09 02:28:12 CET 2016
+base.0=C\:\\Users\\Alex\\Desktop\\Dropbox\\Dropbox\\sp\\sopra-team-8\\code\\Tong\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_e2b9075205cc5ba05a92dc09844748c094df067c
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Alex\\Desktop\\Dropbox\\Dropbox\\sp\\sopra-team-8\\code\\Tong\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_5d63dbe4afad28ec51390c9ee03bd447d7b380f9\\classes.dex
+base.1=C\:\\Users\\Alex\\Desktop\\Dropbox\\Dropbox\\sp\\sopra-team-8\\code\\Tong\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_5d63dbe4afad28ec51390c9ee03bd447d7b380f9
+file.0=C\:\\Users\\Alex\\Desktop\\Dropbox\\Dropbox\\sp\\sopra-team-8\\code\\Tong\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_e2b9075205cc5ba05a92dc09844748c094df067c\\classes.dex

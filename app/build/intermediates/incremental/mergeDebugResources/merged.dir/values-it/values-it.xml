@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="titleArray">
+        <item/>
+        <item>La signora</item>
+    </string-array>
+    <string name="Bild">immagine:</string>
+    <string name="Company">Società</string>
+    <string name="Female">Signora</string>
+    <string name="Region">Paese</string>
+    <string name="SurName">Cognome</string>
+    <string name="Volume">Volume:</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Vai alla home page"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Vai in alto"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Altre opzioni"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fine"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Visualizza tutte"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Scegli un\'applicazione"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Cerca…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Cancella query"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Query di ricerca"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Invia query"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Ricerca vocale"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Condividi con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Condividi con %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Comprimi"</string>
+    <string name="actLanguage">Lingua corrente:</string>
+    <string name="bewertung">Valutazione:</string>
+    <string name="btnExtended">Estesa</string>
+    <string name="chinese">Cinese (Tradizionale)</string>
+    <string name="clicked"> cliccato</string>
+    <string name="company">Empresa: </string>
+    <string name="customer">numero cliente: </string>
+    <string name="delete_button">Pulsante Elimina</string>
+    <string name="edit_button">Pulsante Modifica</string>
+    <string name="editor">editore</string>
+    <string name="email">E-mail:</string>
+    <string name="enterName">Inserisci il nome:</string>
+    <string name="errorEditText">Inserisci un valore corretto!</string>
+    <string name="extraPosition">posizione</string>
+    <string name="french">Francese</string>
+    <string name="german">Tedesco</string>
+    <string name="givenName">Nome di battesimo</string>
+    <string name="givenname">Nome di battesimo: </string>
+    <string name="hier_k_nnen_sie_ein_backup_des_gesamten_systemes_starten">Qui è possibile avviare un backup di tutto il sistema.</string>
+    <string name="india">Indiano</string>
+    <string name="italy">Italiano</string>
+    <string name="language">Lingue supportate:</string>
+    <string name="male">Mr.</string>
+    <string name="newVersion">Nuova versione</string>
+    <string name="ok">Ok</string>
+    <string name="oldVersion">Vecchia versione</string>
+    <string name="player">Giocatore:</string>
+    <string name="position">posizione: </string>
+    <string name="recFinish">registro terminado</string>
+    <string name="recPlay">registrazione gioco</string>
+    <string name="recReset">ripetere colpo</string>
+    <string name="recStart">Comienza registro</string>
+    <string name="region">País: </string>
+    <string name="russia">Russo</string>
+    <string name="save">guardado</string>
+    <string name="search">Ricerca</string>
+    <string name="searchCompany">Criteri di ricerca: società</string>
+    <string name="searchGiven">Criteri di ricerca: nome</string>
+    <string name="searchName">Criteri di ricerca: Cognome</string>
+    <string name="searchNoPref">Criteri di ricerca: nessuna preferenza</string>
+    <string name="searchOptions">opzioni di ricerca</string>
+    <string name="searchRegion">Criteri di ricerca: Regione</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Ricerca"</string>
+    <string name="spain">Spagnolo</string>
+    <string name="speechSettingText">Per modificare la lingua all\'interno della app, è necessario fare questo nelle impostazioni di lingua del vostro smartphone</string>
+    <string name="speechSettings">Cambia lingua</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="submit">Entrare</string>
+    <string name="suggest">Proposta:</string>
+    <string name="surname">Cognome: </string>
+    <string name="tabPlay">Giocare</string>
+    <string name="tabRecord">Registro</string>
+    <string name="telefonnummer">Numero di telefono: </string>
+    <string name="timerComplete">Completato.</string>
+    <string name="title">título: </string>
+    <string name="uk">Inglese</string>
+</resources>

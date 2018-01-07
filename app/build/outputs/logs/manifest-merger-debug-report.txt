@@ -1,0 +1,164 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:2:1-79:12
+	package
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:3:5-55
+		INJECTED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:6:22-68
+uses-permission#android.permission.STORAGE
+ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:7:22-63
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:9:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:10:22-77
+application
+ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:12:5-78:19
+MERGED from [com.android.support:design:25.0.1] C:\Users\Alex\.android\build-cache\c18e1e99205296913e05fcb3b15ab9fe1c470de8\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\Alex\.android\build-cache\2fff0e7398325d4ded27d38604aee658e0bbfe69\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\Alex\.android\build-cache\b630b9871ea4203dc798122fa35e1a6fdeae415c\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\Alex\.android\build-cache\b9febc7fdcf6bbbb89bd0c4dc1c8eeb458785250\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.0.1] C:\Users\Alex\.android\build-cache\fc05a236c22f7f639bcbf8a964a21fcb3ccba4ef\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.0.1] C:\Users\Alex\.android\build-cache\d186794b90361fac343019738593142195400832\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.1] C:\Users\Alex\.android\build-cache\1c8e68a81780b2b3090e17bbcd456baf3836f815\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.1] C:\Users\Alex\.android\build-cache\8ad9d4ab330b2b89bb0000e948a0d4901cb2b8a6\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.1] C:\Users\Alex\.android\build-cache\672c0cf02f8470d097ed6d73d146d979ebbc6e59\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:25.0.1] C:\Users\Alex\.android\build-cache\c6b8f400defc6c8c73015ffc7f0964a424315403\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-core-ui:25.0.1] C:\Users\Alex\.android\build-cache\b00f58902d701b1b8458df0432d8dd8dc8e13636\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.1] C:\Users\Alex\.android\build-cache\11444bafc357737aa326a46913549a7448ce6868\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:15:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:16:9-35
+	android:allowBackup
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:13:9-35
+	android:icon
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:14:9-43
+	android:theme
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:17:9-60
+activity#de.uni_stuttgart.sopra_ws1617_team8.tong.MainActivity
+ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:19:9-29:20
+	android:screenOrientation
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:23:13-49
+	android:label
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:22:13-45
+	android:configChanges
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:21:13-48
+	android:theme
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:24:13-76
+	android:name
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:20:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:25:13-28:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:27:27-74
+activity#de.uni_stuttgart.sopra_ws1617_team8.tong.Contacts.ContactCard
+ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:30:9-38:20
+	android:screenOrientation
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:34:13-49
+	android:label
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:33:13-36
+	android:configChanges
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:32:13-48
+	android:name
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:31:13-89
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:35:13-37:57
+	android:value
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:37:17-54
+	android:name
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:36:17-63
+activity#de.uni_stuttgart.sopra_ws1617_team8.tong.EditData
+ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:39:9-47:20
+	android:screenOrientation
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:43:13-49
+	android:label
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:42:13-45
+	android:configChanges
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:41:13-48
+	android:name
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:40:13-77
+activity#de.uni_stuttgart.sopra_ws1617_team8.tong.SaveData
+ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:49:9-57:20
+	android:screenOrientation
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:53:13-49
+	android:label
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:52:13-44
+	android:configChanges
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:51:13-48
+	android:name
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:50:13-77
+activity#de.uni_stuttgart.sopra_ws1617_team8.tong.Information
+ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:59:9-67:20
+	android:screenOrientation
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:63:13-49
+	android:label
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:62:13-42
+	android:configChanges
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:61:13-48
+	android:name
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:60:13-80
+activity#de.uni_stuttgart.sopra_ws1617_team8.tong.Contacts.Export
+ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:69:9-77:20
+	android:screenOrientation
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:73:13-49
+	android:label
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:72:13-35
+	android:configChanges
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:71:13-48
+	android:name
+		ADDED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml:70:13-84
+uses-sdk
+INJECTED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.0.1] C:\Users\Alex\.android\build-cache\c18e1e99205296913e05fcb3b15ab9fe1c470de8\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\Alex\.android\build-cache\2fff0e7398325d4ded27d38604aee658e0bbfe69\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\Alex\.android\build-cache\b630b9871ea4203dc798122fa35e1a6fdeae415c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\Alex\.android\build-cache\b9febc7fdcf6bbbb89bd0c4dc1c8eeb458785250\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:transition:25.0.1] C:\Users\Alex\.android\build-cache\fc05a236c22f7f639bcbf8a964a21fcb3ccba4ef\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.0.1] C:\Users\Alex\.android\build-cache\d186794b90361fac343019738593142195400832\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.1] C:\Users\Alex\.android\build-cache\1c8e68a81780b2b3090e17bbcd456baf3836f815\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.1] C:\Users\Alex\.android\build-cache\8ad9d4ab330b2b89bb0000e948a0d4901cb2b8a6\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.0.1] C:\Users\Alex\.android\build-cache\672c0cf02f8470d097ed6d73d146d979ebbc6e59\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:cardview-v7:25.0.1] C:\Users\Alex\.android\build-cache\c6b8f400defc6c8c73015ffc7f0964a424315403\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.0.1] C:\Users\Alex\.android\build-cache\f1e6454b6a7dd877bffa3a01745ab9a0b3d9bc22\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.0.1] C:\Users\Alex\.android\build-cache\b00f58902d701b1b8458df0432d8dd8dc8e13636\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.0.1] C:\Users\Alex\.android\build-cache\11444bafc357737aa326a46913549a7448ce6868\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.0.1] C:\Users\Alex\.android\build-cache\c18e1e99205296913e05fcb3b15ab9fe1c470de8\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alex\Dropbox\Tong\Tong\app\src\main\AndroidManifest.xml

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="titleArray">
+        <item>श्री.</item>
+        <item>महिला.</item>
+    </string-array>
+    <string name="Bild">छवि चयन:</string>
+    <string name="Company">कंपनी</string>
+    <string name="Female">महिला</string>
+    <string name="Region">देश</string>
+    <string name="SurName">उपनाम</string>
+    <string name="Volume">आयतन:</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"मुख्यपृष्ठ पर नेविगेट करें"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"ऊपर नेविगेट करें"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"अधिक विकल्प"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"पूर्ण"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"सभी देखें"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"कोई एप्‍लिकेशन चुनें"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"बंद"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"चालू"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"खोजा जा रहा है…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"क्‍वेरी साफ़ करें"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"खोज क्वेरी"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"खोजें"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"क्वेरी सबमिट करें"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"ध्वनि खोज"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"इसके द्वारा साझा करें"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s के साथ साझा करें"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"संक्षिप्त करें"</string>
+    <string name="actLanguage">वर्तमान भाषा:</string>
+    <string name="bewertung">रेटिंग:</string>
+    <string name="btnExtended">का विस्तार</string>
+    <string name="chinese">चीनी (पारंपरिक)</string>
+    <string name="clicked"> क्लिक किया</string>
+    <string name="company">कंपनी: </string>
+    <string name="customer">ग्राहक नं.: </string>
+    <string name="delete_button">बटन को नष्ट</string>
+    <string name="edit_button">बटन संपादित करें</string>
+    <string name="editor">संपादक</string>
+    <string name="email">ईमेल:</string>
+    <string name="enterName">नाम दर्ज:</string>
+    <string name="errorEditText">एक सही मान दर्ज करें!</string>
+    <string name="extraPosition">स्थिति</string>
+    <string name="french">फ्रेंच</string>
+    <string name="german">जर्मन</string>
+    <string name="givenName">दिया गया नाम</string>
+    <string name="givenname">दिया गया नाम: </string>
+    <string name="hier_k_nnen_sie_ein_backup_des_gesamten_systemes_starten">यहाँ आप पूरे सिस्टम का बैकअप शुरू कर सकते हैं।</string>
+    <string name="india">भारतीय</string>
+    <string name="italy">इतालवी</string>
+    <string name="language">समर्थित भाषाओं:</string>
+    <string name="male">श्री.</string>
+    <string name="newVersion">नया संस्करण</string>
+    <string name="ok">ठीक</string>
+    <string name="oldVersion">पुराना संस्करण</string>
+    <string name="player">मीडिया प्लेयर:</string>
+    <string name="position">स्थिति: </string>
+    <string name="recFinish">रिकार्ड खत्म</string>
+    <string name="recPlay">रिकार्ड खेल</string>
+    <string name="recReset">रिकार्ड रीसेट</string>
+    <string name="recStart">रिकार्ड करना शुरू कर दिया</string>
+    <string name="region">देश: </string>
+    <string name="russia">रूसी</string>
+    <string name="save">बचाया</string>
+    <string name="search">खोज</string>
+    <string name="searchCompany">खोजें मानदंड:</string>
+    <string name="searchGiven">खोजें मापदंड: पहला नाम</string>
+    <string name="searchName">द्वारा परिष्कृत: उपनाम</string>
+    <string name="searchNoPref">द्वारा परिष्कृत: कोई प्राथमिकताएँ</string>
+    <string name="searchOptions">खोज विकल्प</string>
+    <string name="searchRegion">खोज मापदंड: क्षेत्र</string>
+    <string msgid="146198913615257606" name="search_menu_title">"खोज"</string>
+    <string name="spain">स्पेनिश</string>
+    <string name="speechSettingText">अनुप्रयोग के भीतर भाषा बदलने के लिए, आप अपने स्मार्टफोन की भाषा सेटिंग्स में यह करने की जरूरत</string>
+    <string name="speechSettings">भाषा बदलें</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="submit">प्रवेश करना</string>
+    <string name="suggest">प्रस्ताव:</string>
+    <string name="surname">उपनाम: </string>
+    <string name="tabPlay">प्ले</string>
+    <string name="tabRecord">अभिलेख</string>
+    <string name="telefonnummer">फ़ोन नंबर: </string>
+    <string name="timerComplete">पूरा कर लिया है.</string>
+    <string name="title">अभिवादन: </string>
+    <string name="uk">अंग्रेजी</string>
+</resources>

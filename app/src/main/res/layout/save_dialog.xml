@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Main View - Linear Layout Vertical Orientation -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bm_texture"
+        android:scaleType="fitXY"/>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_weight="100"
+    android:orientation="vertical">
+
+
+    <!-- Card View which contains the Main Element -->
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/card_list_whole"
+        android:layout_weight="17.44"
+        app:cardBackgroundColor="@android:color/transparent">
+
+        <!-- Row Design like a Table - but Tables are Baaaad to design-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- First Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/smallTextMargin"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:text="@string/title"
+                    android:textColor="@color/primaryTextColor" />
+
+                <Spinner
+                    android:id="@+id/spinTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:entries="@array/titleArray" />
+
+            </LinearLayout>
+
+            <!-- Second Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/smallTextMargin"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:text="@string/givenname"
+                    android:textColor="@color/primaryTextColor" />
+
+                <EditText
+                    android:id="@+id/edGivenName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:hint="@string/givenname" />
+
+            </LinearLayout>
+
+            <!-- Third Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/smallTextMargin"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:text="@string/surname"
+                    android:textColor="@color/primaryTextColor" />
+
+                <EditText
+                    android:id="@+id/edSurName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:hint="@string/surname" />
+
+            </LinearLayout>
+
+            <!-- Fourth Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/smallTextMargin"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:text="@string/region"
+                    android:textColor="@color/primaryTextColor" />
+
+                <EditText
+                    android:id="@+id/edRegion"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:hint="@string/region" />
+
+            </LinearLayout>
+
+            <!-- Fith Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/smallTextMargin"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:text="@string/company"
+                    android:textColor="@color/primaryTextColor" />
+
+                <EditText
+                    android:id="@+id/edCompany"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:hint="@string/company" />
+
+            </LinearLayout>
+
+            <!-- Six Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/smallTextMargin"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:text="@string/bewertung"
+                    android:textColor="@color/primaryTextColor" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70">
+
+                    <RatingBar
+                        android:id="@+id/ratingBarAudio"
+                        style="@android:style/Widget.Material.Light.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/defaultMargin5"
+                        android:layout_marginStart="@dimen/defaultMargin10"
+                        android:background="@android:color/transparent"
+                        android:numStars="5"
+                        android:scaleX="1.2"
+                        android:scaleY="1.2"
+                        android:progressBackgroundTint="@android:color/holo_red_dark"
+                        android:progressTint="@android:color/holo_red_dark"
+                        android:rating="3.7"
+                        android:secondaryProgressTint="@android:color/holo_red_dark"
+                        android:stepSize="0.05"
+                        android:isIndicator="false" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <!-- Fith Row -->
+
+
+            <!-- Six Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30" />
+
+                <Button
+                    android:id="@+id/btnSave"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:text="@string/ok" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/targetImage"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+</RelativeLayout>

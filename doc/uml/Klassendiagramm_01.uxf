@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>280</x>
+      <y>680</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>MediaRecorder
+--
+-mRecordButton: RecordButton 
+-mRecorder: MediaRecorder
+--
++isRecording()
++record()
+ </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>670</x>
+      <y>680</y>
+      <w>210</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>Person
+--
+-surName: String
+-addiName: String
+-preName: String
+
+--
++get...()
++set...()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>380</x>
+      <y>580</y>
+      <w>280</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1
+</panel_attributes>
+    <additional_attributes>260.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>710</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1
+&lt; has</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>890</x>
+      <y>970</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Land
+--
+-name: String
+-locale: String
+--
++getLandName()
++setLandName()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>970</y>
+      <w>210</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Firma
+--
+-id: int
+-name: String
+-region: String
+-land: Land
+--
++get...()
++set...()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>670</x>
+      <y>870</y>
+      <w>160</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=0..n
+&lt; belongs to</panel_attributes>
+    <additional_attributes>10.0;100.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>760</x>
+      <y>870</y>
+      <w>230</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=0..n
+belongs to &gt;</panel_attributes>
+    <additional_attributes>210.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>580</y>
+      <w>170</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1
+&lt; owns</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>300</y>
+      <w>210</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>MediaPlayer
+--
+-mPlayButton: PlayButton
+-mPlayer: MediaPlayer
+-playing: boolean
+-volume: int
+-title: String
+-region: String
+-dHandler DataHandler
+--
++getCurrentPosition()
++isPlaying()
++pause()
++reset()
++setVolume()
++start()
++stop()
++getTrackInfo()
++selectTrack()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>440</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1
+</panel_attributes>
+    <additional_attributes>140.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>540</x>
+      <y>350</y>
+      <w>210</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>DataHandler
+--
+-file: File
+--
++getAudioFile()
++setAudioFile()
++setAudioData()
++getAudioData()
++saveMetaDatePerson()
++saveMetaDataAudio()
++saveAudio
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>870</x>
+      <y>100</y>
+      <w>210</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>MediaEditor
+--
+dHandler: DataHandler
+--
++getAudioFile()
++setNewVolumeLevel()
++setAntiDist()
++setNewPitchLevel()
++setNewEffekt()
++setNewMetaData()
++setNewLength()
++analyseAudioFile()
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>740</x>
+      <y>200</y>
+      <w>150</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;260.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>760</x>
+      <y>1010</y>
+      <w>150</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..n
+ belongs to &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>540</x>
+      <y>0</y>
+      <w>210</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>GUIHandler
+--
+-mRecylclerView: RecyclerView
+-mRecyclerAdapter: RecyclerView.Adapter
+-mLayoutManager: mLayoutManager
+-mPlayer: MediaPlayer
+-mBar: ProgressBar
+-updateTimer: Runnable
+--
++generateCardContent()
++generateLists()
++getCurrentPosition()
++showCurrentPosition()
++run()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>230</y>
+      <w>50</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>230</y>
+      <w>340</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1
+</panel_attributes>
+    <additional_attributes>320.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>880</x>
+      <y>430</y>
+      <w>170</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Bewertung
+--
+-ratings: List
+-average: int
+--
++addRating()
++getAverage()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>740</x>
+      <y>500</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+has &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+</diagram>

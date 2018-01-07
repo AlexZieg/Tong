@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Main View - Linear Layout Vertical Orientation -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_weight="100"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+
+    <!-- Card View which contains the Main Element -->
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/card_list_whole"
+        android:layout_weight="17.44"
+        app:cardBackgroundColor="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/bm_texture" />
+
+        <!-- Row Design like a Table - but Tables are Baaaad to design-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- First Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/smallTextMargin"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="35"
+                    android:text="@string/title"
+                    android:textColor="@color/primaryTextColor" />
+
+                <Spinner
+                    android:id="@+id/spinTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="65"
+                    android:entries="@array/titleArray" />
+
+            </LinearLayout>
+
+            <!-- Second Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/smallTextMargin"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="35"
+                    android:text="@string/givenname"
+                    android:textColor="@color/primaryTextColor" />
+
+                <EditText
+                    android:id="@+id/edGivenName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="65"
+                    android:hint="@string/givenname" />
+
+            </LinearLayout>
+
+            <!-- Third Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/smallTextMargin"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="35"
+                    android:text="@string/surname"
+                    android:textColor="@color/primaryTextColor" />
+
+                <EditText
+                    android:id="@+id/edSurName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="65"
+                    android:hint="@string/surname" />
+
+            </LinearLayout>
+
+            <!-- Fourth Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/smallTextMargin"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="35"
+                    android:text="@string/region"
+                    android:textColor="@color/primaryTextColor" />
+
+                <EditText
+                    android:id="@+id/edRegion"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="65"
+                    android:hint="@string/region" />
+
+            </LinearLayout>
+
+            <!-- Fith Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/smallTextMargin"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="35"
+                    android:text="@string/company"
+                    android:textColor="@color/primaryTextColor" />
+
+                <EditText
+                    android:id="@+id/edCompany"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="65"
+                    android:hint="@string/company" />
+
+            </LinearLayout>
+
+            <!-- Six Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/smallTextMargin"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="35"
+                    android:text="@string/rating"
+                    android:textColor="@color/primaryTextColor" />
+
+                <RatingBar
+                    android:id="@+id/ratingBarAudio"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="65"
+                    android:background="@android:color/transparent"
+                    android:numStars="5"
+                    android:progressBackgroundTint="@android:color/holo_red_dark"
+                    android:progressTint="@android:color/holo_red_dark"
+                    android:rating="3.7"
+                    android:secondaryProgressTint="@android:color/holo_red_dark"
+                    android:stepSize="0.05" />
+
+            </LinearLayout>
+
+            <!-- Six Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="35" />
+
+                <Button
+                    android:id="@+id/btnSave"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="65"
+                    android:text="@string/ok" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

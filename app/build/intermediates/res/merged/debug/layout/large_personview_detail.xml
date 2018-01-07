@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <!-- Card View for the persons Details  -->
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/defaultMargin16"
+        android:layout_weight="80">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/background"
+            android:scaleType="fitXY"
+            android:src="@drawable/bm_texture" />
+
+        <!-- Vertical Structur of the Layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- First Row of the Layout - It contains the UserPic, and the description of the user -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/defaultMargin10"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <!-- UserPic -->
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30">
+
+                    <ImageView
+                        android:id="@+id/userPic"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:contentDescription="@string/contentImageUserPic"
+                        android:src="@drawable/user1" />
+                </RelativeLayout>
+
+                <!-- innerTable Structure of the details from the person -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/defaultMargin5"
+                    android:layout_weight="70"
+                    android:orientation="vertical">
+
+                    <!-- Start of the first row -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="35"
+                            android:text="@string/title"
+                            android:textColor="@color/primaryTextColor" />
+
+                        <TextView
+                            android:id="@+id/textTitle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="65"
+                            android:text="@string/stdValue"
+                            android:textColor="@color/primaryTextColor" />
+                    </LinearLayout>
+                    <!-- End of the first Row -->
+
+                    <!-- Start of the second row -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="35"
+                            android:text="@string/givenname"
+                            android:textColor="@color/primaryTextColor" />
+
+                        <TextView
+                            android:id="@+id/textGivenName"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="65"
+                            android:text="@string/stdValue"
+                            android:textColor="@color/primaryTextColor" />
+                    </LinearLayout>
+                    <!-- End of the second Row -->
+
+                    <!-- Start of the third row -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="35"
+                            android:text="@string/surname"
+                            android:textColor="@color/primaryTextColor" />
+
+                        <TextView
+                            android:id="@+id/textSurName"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="65"
+                            android:text="@string/stdValue"
+                            android:textColor="@color/primaryTextColor" />
+                    </LinearLayout>
+                    <!-- End of the third Row -->
+
+                    <!-- Start of the fourth row -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="35"
+                            android:text="@string/region"
+                            android:textColor="@color/primaryTextColor" />
+
+                        <TextView
+                            android:id="@+id/textRegion"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="65"
+                            android:text="@string/stdValue"
+                            android:textColor="@color/primaryTextColor" />
+                    </LinearLayout>
+                    <!-- End of the fourth Row -->
+
+                    <!-- Start of the fith row -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="35"
+                            android:text="@string/company"
+                            android:textColor="@color/primaryTextColor" />
+
+                        <TextView
+                            android:id="@+id/textCompany"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="65"
+                            android:text="@string/stdValue"
+                            android:textColor="@color/primaryTextColor" />
+                    </LinearLayout>
+                    <!-- End of the fith Row -->
+
+                    <!-- Start of the six row -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/card_list_top_big"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <ImageButton
+                            android:id="@+id/iBEdit"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="35"
+                            android:background="@android:color/transparent"
+                            android:contentDescription="@string/edit_button"
+                            android:src="@android:drawable/ic_menu_edit" />
+
+                        <ImageButton
+                            android:id="@+id/iBDelete"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="65"
+                            android:background="@android:color/transparent"
+                            android:contentDescription="@string/delete_button"
+                            android:src="@android:drawable/ic_menu_delete" />
+                    </LinearLayout>
+                    <!-- End of the six Row -->
+
+                </LinearLayout>
+                <!-- End of the First Row (User Information) -->
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="@dimen/defaultMargin10"
+                android:background="@color/colorAccent" />
+
+
+            <!-- Audio Rating Layout -->
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/defaultMargin16"
+                android:layout_marginTop="@dimen/defaultMargin5"
+                card_view:cardBackgroundColor="@android:color/transparent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/bewertung"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RatingBar
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:numStars="5"
+                            android:progressBackgroundTint="@android:color/holo_red_dark"
+                            android:progressTint="@android:color/holo_red_dark"
+                            android:rating="3.7"
+                            android:secondaryProgressTint="@android:color/holo_red_dark"
+                            android:stepSize="0.05"
+                            android:id="@+id/personRating" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/default_rating"
+                            android:textColor="@color/primaryTextColor"
+                            android:id="@+id/personRatingDetail" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Media Player Layout -->
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/defaultMargin16"
+                android:layout_marginTop="@dimen/defaultMargin5"
+                card_view:cardBackgroundColor="@android:color/transparent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/player"
+                        android:textColor="#fff" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/iBPlayButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@string/image_of_the_playbutton"
+                            android:src="@mipmap/play"
+                            android:background="@android:color/transparent"/>
+
+                        <ImageButton
+                            android:id="@+id/iBPauseButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@string/image_of_the_pause_stop_button"
+                            android:src="@mipmap/pause"
+                            android:background="@android:color/transparent"/>
+
+                        <ImageButton
+                            android:id="@+id/iBStopButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/stop"
+                            android:background="@android:color/transparent"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="@dimen/defaultMargin10"
+                android:background="@color/colorAccent" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/defaultMargin16"
+                android:layout_marginLeft="@dimen/defaultMargin16"
+                android:layout_marginRight="@dimen/defaultMargin16"
+                android:layout_marginStart="@dimen/defaultMargin16"
+                android:layout_marginTop="@dimen/defaultMargin5"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/suggest"
+                    android:textColor="@color/primaryTextColor"
+                    />
+
+                <ImageButton
+                    android:id="@+id/iBSuggest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:src="@android:drawable/ic_media_play"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

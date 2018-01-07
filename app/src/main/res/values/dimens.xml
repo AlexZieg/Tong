@@ -1,0 +1,23 @@
+<resources>
+
+    <dimen name="card_list_leftandright">16dp</dimen>
+    <dimen name="card_list_whole">16dp</dimen>
+    <dimen name="card_list_top_small">5dp</dimen>
+    <dimen name="smallTextMargin">6dp</dimen>
+    <dimen name="defaultMargin10">10dp</dimen>
+    <dimen name="defaultMargin15">15dp</dimen>
+    <dimen name="defaultMargin16">16dp</dimen>
+    <dimen name="defaultMargin5">5dp</dimen>
+
+
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="card_list_top_big">12dp</dimen>
+
+
+</resources>

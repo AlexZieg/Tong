@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Alex\\Dropbox\\Tong\\Tong\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\sort_asc.png",
+        "source": "C:\\Users\\Alex\\Dropbox\\Tong\\Tong\\app\\src\\main\\res\\mipmap-xxhdpi\\sort_asc.png"
+    },
+    {
+        "merged": "C:\\Users\\Alex\\Dropbox\\Tong\\Tong\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\sort_desc.png",
+        "source": "C:\\Users\\Alex\\Dropbox\\Tong\\Tong\\app\\src\\main\\res\\mipmap-xxhdpi\\sort_desc.png"
+    },
+    {
+        "merged": "C:\\Users\\Alex\\Dropbox\\Tong\\Tong\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Alex\\Dropbox\\Tong\\Tong\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    }
+]
